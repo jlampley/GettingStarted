@@ -12,6 +12,6 @@ GetAlignment_exercise <- function() {
 	#Let's see where mafft is installed
 	print(system("which mafft"))
 	data(woodmouse)
-	result <- mafft(" __PUT SOMETHING HERE TO ALIGN__" ) #hint, look up one line
+	result <- mafft(" __PUT SOMETHING HERE TO ALIGN__" , path="C://Users/JAL/Desktop/MAFFT") #hint, look up one line
 	return(result)
 }
